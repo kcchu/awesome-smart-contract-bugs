@@ -10,3 +10,5 @@ A list of security bugs with smart contracts on Ethereum. ([original source](htt
  1. The [King of the Ether game](http://www.kingoftheether.com/postmortem.html)
  1. Rubixi : Fees stolen because the [constructor function](https://etherscan.io/address/0xe82719202e5965Cf5D9B6673B7503a3b92DE20be#code) had an incorrect name, allowing [anyone to become the owner](https://bitcointalk.org/index.php?topic=1400536.60)
  1. Rock paper scissors [trivially cheatable](https://www.reddit.com/r/ethtrader/comments/4fpn6o/play_rockpaperscissors_for_1_eth_via_mist_wallet/) because the first to move shows their hand
+ 1. The [Parity Wallet Hack](https://blog.zeppelin.solutions/on-the-parity-wallet-multisig-hack-405a8c12e8f7) caused by missing checks before overwriting wallet owner.
+ 1. The [Parity Wallet Hack Again](https://blog.zeppelinos.org/parity-wallet-hack-reloaded/amp/) because anyone can take ownership of the library contract.
